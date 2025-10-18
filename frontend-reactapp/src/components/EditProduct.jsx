@@ -48,7 +48,7 @@ function EditProduct() {
 
   return (
     <div>
-      <h2>Edit Product</h2>
+      <h2>Edit Products</h2>
       {message && <p className="text-danger">{message}</p>}
       {!message && (
         <form onSubmit={handleSubmit} className="mt-3">
