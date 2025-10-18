@@ -6,7 +6,7 @@ import EditProduct from "./EditProduct";
 import ViewProduct from "./ViewProduct";
 import "./navbar.css";
 
-function NavBar() {
+function Navbar() {
   return (
     <div>
       {/* Navbar */}
@@ -33,4 +33,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;
