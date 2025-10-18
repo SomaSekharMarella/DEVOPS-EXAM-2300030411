@@ -27,7 +27,7 @@ services:
     image: somasekharmarella/2300030411-exam-frontend:final
     container_name: react
     ports:
-      - "2000:80"
+      - "2001:80"
     depends_on:
       - backend
     restart: on-failure
